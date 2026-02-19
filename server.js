@@ -4,7 +4,7 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 const rateLimit = require('express-rate-limit');
 require('dotenv').config();
-console.log("Loaded URI:", process.env.MONGODB_URI);
+
 
 const connectDB = require('./config/database');
 
