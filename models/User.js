@@ -138,8 +138,8 @@ userSchema.methods.toJSON = function() {
   return user;
 };
 
-userSchema.index({ email: 1 });
-userSchema.index({ googleId: 1 });
-userSchema.index({ facebookId: 1 });
+// userSchema.index({ email: 1 });
+// userSchema.index({ googleId: 1 });
+// userSchema.index({ facebookId: 1 });
 
 module.exports = mongoose.model('User', userSchema);
